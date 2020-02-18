@@ -1,0 +1,31 @@
+{
+    "intents": [
+        {
+            "tag": "saudacao",
+            "patterns": [
+                "ola",
+                "oi",
+                "como vai",
+                "eai"
+            ],
+            "responses": [
+                "Ola seja bem vindo",
+                "como vai?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "xau",
+                "tchau",
+                "ate mais",
+                "falando"
+            ],
+            "responses": [
+                "ate logo"
+            ],
+            "context_set": ""
+        }
+    ]
+}

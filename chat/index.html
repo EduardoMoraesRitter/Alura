@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SALA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" 
+        crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+
+    <script src="js/client.js"></script>
+    <div>
+        sala : <input id="sala" value="123">
+        entrar: <button onclick="entrarSala()">Click</button>
+    </div>
+
+    <div>
+            <div id="text"><br/></div>
+            msg : <input id="msg">
+            enviar: <button onclick="msgSala()">Click</button>
+        </div>
+
+</body>
+
+</html>
